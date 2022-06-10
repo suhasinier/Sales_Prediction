@@ -31,7 +31,7 @@ def data():
   
     return render_template('predict.html',data=data)
 
-app.run(debug = True) # should be always at the end
+app.run(host = '0.0.0.0', port = 8080) # should be always at the end
 
 
 """
